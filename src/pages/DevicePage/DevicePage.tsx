@@ -11,10 +11,15 @@ export default function DevicePage() {
   useEffect( () => {
     dispatch(fetchDevices())
   }, [dispatch])
-  console.log(devices)
+
+  if (isLoading) {
+    return <h1>Идет загрузка...</h1>;
+  }
+
+  if (error) {
+    return <h1>{error}</h1>;
+  }
   return <div>
-    {isLoading && <h1>Идет загрузка...</h1>}
-    {error && <h1>{error}</h1>}
     <div className="carts_wrapper">
         {devices &&
           devices.items.map((item) => (
