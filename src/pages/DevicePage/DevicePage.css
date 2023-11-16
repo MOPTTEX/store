@@ -1,0 +1,15 @@
+.carts_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.carts_wrapper__container {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+width: calc(33% - 10px);
+justify-content: center;
+}

@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #9e9a9abe;
+  padding: 20px 0;
+}
+
+.navbar_links {
+  padding-left:30px ;
+  color: rgb(97, 96, 100);
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.navbar_links:hover {
+  color: rgb(62, 114, 74);
+}
+
+.navbar_counter {
+  color: rgb(62, 114, 74);
+  padding-left: 5px;
+}

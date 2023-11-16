@@ -1,0 +1,7 @@
+.basket {
+  display: flex;
+  justify-content: center;
+}
+.basket_message {
+  color: rgb(80, 78, 78)
+}
